@@ -8,6 +8,14 @@ You can change the system clock by specifying any number of seconds in the -t op
 NOTE: If you specify a negative value (e.g. -600), the time will be returned. 
 </pre>
 
+For example:
+```
+# python tjumper.py -t 10
+Correct 10 second.......
+current   time = 2018-01-17 18:08:30.121068
+converted time = 2018-01-17 18:08:40.121068
+```
+
 See also the help page that displayed by -h option:
 ```
 # python tjumper.py -h
